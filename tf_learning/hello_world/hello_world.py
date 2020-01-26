@@ -7,7 +7,6 @@ b = tf.constant([3])
 
 c = tf.add(a, b)
 
-
 # session = tf.Session()
 # result = session.run(c)
 # print(result)
@@ -16,3 +15,5 @@ c = tf.add(a, b)
 with tf.Session() as session:
     result = session.run(c)
     print result
+
+
