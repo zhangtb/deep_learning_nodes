@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4051de-1182-458f-a230-4ff1ffd2f9a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tf_learning/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/hello_world/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/tensors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tf_core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_learning/tf_core/tensorboard_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/price_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_learning/simple/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_learning/simple/hello_world/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_learning/hello_world/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/hello_world/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep-Learning-Nodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Deep-Learning-Nodes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/hello_world/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/linear_regression/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/hello_world/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/simple/hello_world/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/placeholders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/tensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/tensors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/variables.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,95 +24,106 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Deep_Learning_Nodes$placeholders.coverage" NAME="placeholders Coverage Results" MODIFIED="1580042370190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder" />
+    <SUITE FILE_PATH="coverage/Deep_Learning_Nodes$Unittests_in_2_linear_regression_py.coverage" NAME="Unittests in 2_linear_regression.py Coverage Results" MODIFIED="1580103380659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction" />
     <SUITE FILE_PATH="coverage/Deep_Learning_Nodes$tensors.coverage" NAME="tensors Coverage Results" MODIFIED="1580038398229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder" />
     <SUITE FILE_PATH="coverage/Deep_Learning_Nodes$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1580038080925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_learning/hello_world" />
     <SUITE FILE_PATH="coverage/Deep_Learning_Nodes$variables.coverage" NAME="variables Coverage Results" MODIFIED="1580042552021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/tensors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/tensorboard_wrapper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/ntpath.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variables.py">
+        <entry file="file://$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/price_prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="356">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/numpy/lib/function_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="2030" column="8" selection-start-line="2030" selection-start-column="8" selection-end-line="2030" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/numpy/core/_multiarray_umath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="9142" lean-forward="true" selection-start-line="9142" selection-end-line="9142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/numpy/random/mtrand.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="1984" column="4" selection-start-line="1984" selection-start-column="4" selection-end-line="1984" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/__builtin__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="560" column="4" selection-start-line="560" selection-start-column="4" selection-end-line="560" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/matplotlib/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="1161" selection-start-line="1161" selection-end-line="1161" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/contrib/summary/summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+              <folding>
+                <element signature="e#2345#2383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/contrib/summary/summary_test_util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-823" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/2_linear_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4311">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="e#207#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/python/summary/writer/writer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="369" column="43" lean-forward="true" selection-start-line="369" selection-start-column="43" selection-end-line="369" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_learning/hello_world/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/python_develop/tensorflow_dev/lib/python2.7/site-packages/tensorflow/python/client/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25857">
-              <caret line="1547" column="6" selection-start-line="1547" selection-start-column="6" selection-end-line="1547" selection-end-column="6" />
+            <state relative-caret-position="2880">
+              <caret line="402" column="6" selection-start-line="402" selection-start-column="6" selection-end-line="402" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -130,6 +141,11 @@
     <findStrings>
       <find>altsep</find>
       <find>_top_level_modules</find>
+      <find>assign</find>
+      <find>house_prices_train</find>
+      <find>pd</find>
+      <find>animation</find>
+      <find>plt</find>
       <find>summary</find>
     </findStrings>
   </component>
@@ -147,6 +163,8 @@
         <option value="$PROJECT_DIR$/tf_learning/tf_core/tensorboard_wrapper.py" />
         <option value="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py" />
         <option value="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variables.py" />
+        <option value="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/2_linear_regression.py" />
+        <option value="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/price_prediction.py" />
       </list>
     </option>
   </component>
@@ -166,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,19 +201,130 @@
               <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deep-Learning-Nodes" type="462c0819:PsiDirectoryNode" />
               <item name="tf_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="tensor_vars_placeholder" type="462c0819:PsiDirectoryNode" />
+              <item name="linear_regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Learning-Nodes" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="linear_regression" type="462c0819:PsiDirectoryNode" />
+              <item name="housing_price_prediction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Learning-Nodes" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep-Learning-Nodes" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_core" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorboard_wrapper.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="seaborn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python2.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_core" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="seaborn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="seaborn" type="462c0819:PsiDirectoryNode" />
+              <item name="rcmod.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep-Learning-Nodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 virtualenv at ~/tensorflow &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="__init__.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580042480357" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580135535955" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -213,11 +342,12 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tf_learning/hello_world" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tf_learning/example" />
+      <recent name="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variables">
+  <component name="RunManager" selected="Python.price_prediction">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -245,7 +375,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Deep-Learning-Nodes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,14 +383,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_learning/hello_world" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_learning/hello_world/hello_world.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -283,6 +413,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="price_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep-Learning-Nodes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/price_prediction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -341,12 +490,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unittests in 2_linear_regression.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learning-Nodes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/2_linear_regression.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.price_prediction" />
+        <item itemvalue="Python tests.Unittests in 2_linear_regression.py" />
         <item itemvalue="Python.variables" />
         <item itemvalue="Python.placeholders" />
         <item itemvalue="Python.tensors" />
-        <item itemvalue="Python.hello_world" />
       </list>
     </recent_temporary>
   </component>
@@ -363,12 +528,29 @@
       <workItem from="1580031813349" duration="3319000" />
       <workItem from="1580038411126" duration="490000" />
       <workItem from="1580038914773" duration="334000" />
-      <workItem from="1580039252892" duration="2798000" />
+      <workItem from="1580039252892" duration="4562000" />
+      <workItem from="1580052590793" duration="728000" />
+      <workItem from="1580101476500" duration="582000" />
+      <workItem from="1580102994965" duration="4569000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_2_linear_regression_py - 2020.01.26 at 23h 36m 41s.xml">
+      <configuration name="Unittests in 2_linear_regression.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_2_linear_regression_py - 2020.01.26 at 23h 38m 13s.xml">
+      <configuration name="Unittests in 2_linear_regression.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_2_linear_regression_py - 2020.01.26 at 23h 38m 27s.xml">
+      <configuration name="Unittests in 2_linear_regression.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_2_linear_regression_py - 2020.01.27 at 13h 36m 21s.xml">
+      <configuration name="Unittests in 2_linear_regression.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6941000" />
+    <option name="totallyTimeSpent" value="14584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,57 +565,66 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4892704" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713877" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tool Output" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5107296" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32891566" />
       <window_info anchor="bottom" id="ANTLR Preview" order="15" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
+      <window_info active="true" anchor="right" id="SciView" order="6" visible="true" weight="0.48783976" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="10" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/2_linear_regression.py</url>
+          <line>239</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tf_learning/hello_world/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/__init__.py">
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/hello_world/__init__.py">
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/hello_world/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/python_develop/tensorflow_dev/lib/python2.7/site-packages/tensorflow/python/client/session.py">
@@ -443,51 +634,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variablespy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/python/summary/writer/writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="369" column="43" lean-forward="true" selection-start-line="369" selection-start-column="43" selection-end-line="369" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/tensorboard_wrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/tensors.py">
+    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variablespy" />
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/tensors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/placeholders.py">
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/hello_world/hello_world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11305">
+          <caret line="708" column="25" selection-start-line="708" selection-start-column="25" selection-end-line="708" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170323">
+          <caret line="10068" column="12" selection-start-line="10068" selection-start-column="12" selection-end-line="10068" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/simple/tensor_vars_placeholder/placeholders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
@@ -497,12 +695,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_learning/tensor_vars_placeholder/variables.py">
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/seaborn/rcmod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/seaborn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/tf_core/tensorboard_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/contrib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/python/summary/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6068" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/python/summary/writer/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="402" column="6" selection-start-line="402" selection-start-column="6" selection-end-line="402" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/contrib/summary/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#2345#2383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow_core/contrib/summary/summary_test_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-823" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/2_linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4311">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#207#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1161" selection-start-line="1161" selection-end-line="1161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="560" column="4" selection-start-line="560" selection-start-column="4" selection-end-line="560" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1984" column="4" selection-start-line="1984" selection-start-column="4" selection-end-line="1984" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1643866743/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="9142" lean-forward="true" selection-start-line="9142" selection-end-line="9142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="2030" column="8" selection-start-line="2030" selection-start-column="8" selection-end-line="2030" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_learning/linear_regression/housing_price_prediction/price_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
