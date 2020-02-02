@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import os
-import unittest
+#import unittest
 
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
@@ -18,6 +18,8 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import rc
 from pylab import rcParams
+
+import tf_learning.linear_regression.housing_price_prediction.train_data_constant as td_const
 
 # %matplotlib inline
 
@@ -32,8 +34,8 @@ np.random.seed(RANDOM_SEED)
 HOUSE_PRICES_TRAIN_DATA_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), "hourse_price_datas")
 
 
-def run_tests():
-    unittest.main(argv=[''], verbosity=1, exit=False)
+# def run_tests():
+#     unittest.main(argv=[''], verbosity=1, exit=False)
 
 
 """# Load the data
@@ -43,7 +45,7 @@ Data [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/hou
 
 # !wget https://raw.githubusercontent.com/Data-Science-FMI/ml-from-scratch-2019/master/data/house_prices_train.csv
 
-df_train = pd.read_csv(os.path.join(HOUSE_PRICES_TRAIN_DATA_DIR, 'house_prices_train.csv'))
+df_train = td_const.read_house_train_data()
 
 """# Data exploration"""
 
@@ -178,25 +180,25 @@ def loss(h, y):
     return 1.0 / (2 * n) * sq_error.sum()
 
 
-class TestLoss(unittest.TestCase):
-
-    def test_zero_h_zero_y(self):
-        self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([0])), 0)
-
-    def test_one_h_zero_y(self):
-        self.assertAlmostEqual(loss(h=np.array([1]), y=np.array([0])), 0.5)
-
-    def test_two_h_zero_y(self):
-        self.assertAlmostEqual(loss(h=np.array([2]), y=np.array([0])), 2)
-
-    def test_zero_h_one_y(self):
-        self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([1])), 0.5)
-
-    def test_zero_h_two_y(self):
-        self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([2])), 2)
-
-
-run_tests()
+# class TestLoss(unittest.TestCase):
+#
+#     def test_zero_h_zero_y(self):
+#         self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([0])), 0)
+#
+#     def test_one_h_zero_y(self):
+#         self.assertAlmostEqual(loss(h=np.array([1]), y=np.array([0])), 0.5)
+#
+#     def test_two_h_zero_y(self):
+#         self.assertAlmostEqual(loss(h=np.array([2]), y=np.array([0])), 2)
+#
+#     def test_zero_h_one_y(self):
+#         self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([1])), 0.5)
+#
+#     def test_zero_h_two_y(self):
+#         self.assertAlmostEqual(loss(h=np.array([0]), y=np.array([2])), 2)
+#
+#
+# run_tests()
 
 
 class LinearRegression:
@@ -229,15 +231,15 @@ class LinearRegression:
         return self
 
 
-class TestLinearRegression(unittest.TestCase):
-
-    def test_find_coefficients(self):
-        clf = LinearRegression()
-        clf.fit(x, y, n_iter=2000, lr=0.01)
-        np.testing.assert_array_almost_equal(clf._W, np.array([180921.19555322, 56294.90199925]))
-
-
-run_tests()
+# class TestLinearRegression(unittest.TestCase):
+#
+#     def test_find_coefficients(self):
+#         clf = LinearRegression()
+#         clf.fit(x, y, n_iter=2000, lr=0.01)
+#         np.testing.assert_array_almost_equal(clf._W, np.array([180921.19555322, 56294.90199925]))
+#
+#
+# run_tests()
 
 clf = LinearRegression()
 clf.fit(x, y, n_iter=2000, lr=0.01)

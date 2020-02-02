@@ -10,13 +10,19 @@ class TensorBoardWrapper:
     def __init__(self, logs_dirs):
         self.logs = logs_dirs
 
-    def dump_graph(self, graph_data):
-        with tf.summary.FileWriter(self.logs, graph_data) as f:
+    def dump_graph(self, graph_data, filename_suffix):
+        with tf.summary.FileWriter(self.logs, graph_data, filename_suffix=filename_suffix) as f:
             pass
 
 
 _tb_wrapper = TensorBoardWrapper(TENSOR_BOARD_LOGS_PATH)
 
 
-def dump_graph_data(graph_data=tf.get_default_graph()):
-    _tb_wrapper.dump_graph(graph_data)
+def dump_graph_data(graph_data=tf.get_default_graph(), filename_suffix=None):
+    _tb_wrapper.dump_graph(graph_data, filename_suffix)
+
+
+def dump_op_graph(t, filename_suffix=None):
+    if not isinstance(t, (tf.Operation, tf.Tensor)):
+        raise TypeError("t needs to be an Operation or Tensor: %s" % t)
+    _tb_wrapper.dump_graph(t.graph, filename_suffix)
