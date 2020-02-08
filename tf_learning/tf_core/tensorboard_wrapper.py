@@ -23,6 +23,6 @@ def dump_graph_data(graph_data=tf.get_default_graph(), filename_suffix=None):
 
 
 def dump_op_graph(t, filename_suffix=None):
-    if not isinstance(t, (tf.Operation, tf.Tensor)):
+    if not isinstance(t, (tf.Operation, tf.Tensor, tf.SparseTensor)):
         raise TypeError("t needs to be an Operation or Tensor: %s" % t)
     _tb_wrapper.dump_graph(t.graph, filename_suffix)
